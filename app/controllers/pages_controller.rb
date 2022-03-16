@@ -17,6 +17,8 @@ class PagesController < ApplicationController
   end
   def projet_8
   end
+  def projet_9
+  end
   def bio
   end
   def press
