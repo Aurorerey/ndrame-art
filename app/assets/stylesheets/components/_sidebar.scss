@@ -9,14 +9,101 @@ background-color: #ecf0f1;
 font-family: 'Lato', sans-serif;
 }
 
-.container_logo {
-  padding-bottom: 40%;
-  padding-left: 20%;
+
+
+
+.topnav {
+overflow: hidden;
+height: 100%;
+width: 230px;
+position: fixed;
+background-color: #ecf0f1;
+font-family: 'Lato', sans-serif;
+}
+
+.container_linkpro {
+    padding-top: 50%;
+    padding-bottom: 20%;
+    padding-left:  30px;
 }
 
 .container_list_project {
-  padding-bottom: 20%;
+  padding-left: 20px;
+
 }
+
+.topnav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  line-height: 2;
+}
+
+.topnav a:hover {
+  color: black;
+  cursor: pointer;
+  text-shadow: 1px 1px 3px grey;
+}
+
+.topnav a.active {
+
+  color: black;
+}
+
+.topnav a.different {
+  padding-top: 50px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav {
+    width: 70px;
+    height: 800px;
+    background-color: #F4F4F4;
+  }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    background-color: #ecf0f1;
+    width: 260px;
+    height: 450px;
+  }
+
+  .topnav.responsive .container_linkpro {
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left:  20px;
+
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 a {
   text-decoration: none;
