@@ -1,92 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-overflow: hidden;
-height: 100%;
-width: 230px;
-left: 0;
-top: 0;
-position: fixed;
-padding-top: 40px;
-background-color: #ecf0f1;
-font-family: 'Lato', sans-serif;
-}
-
-.container_linkpro {
-    padding-bottom: 20%;
-}
-
-
-.topnav a {
-  text-decoration: none;
-  color: black;
-  display: block;
-}
-
-.topnav a:hover {
-  color: black;
-  cursor: pointer;
-  text-shadow: 1px 1px 3px grey;
-}
-
-.topnav a.active {
-
-  color: black;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav {
-    width: 70px;
-    height: 100px;
-    background-color: #F4F4F4;
-  }
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {
-    background-color: lightgrey;
-    width: 280px;
-    height: 500px;
-  }
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-</style>
-</head>
-<body>
 
 <div class="topnav" id="myTopnav">
-
-
   <div class="container_linkpro">
+  <a href="home" class="active">Menu</a>
 
-  <a href="home" class="active">'ndrame</a>
   <a href="projet_1">Oro rosso</a>
   <a href="projet_2">Red thread</a>
   <a href="projet_3">The lovers</a>
@@ -95,27 +11,13 @@ font-family: 'Lato', sans-serif;
   <a href="projet_6">From personal to political</a>
   <a href="projet_7">Of blood and sea</a>
   <a href="projet_8">Street art</a>
-  </div>
-  <a href="press">Press & Project</a>
+
+
+  <a href="press" class="different">Press & Project</a>
   <a href="bio">Press & Bio</a>
+
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-
 </div>
 </div>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-
-</body>
-</html>
-
