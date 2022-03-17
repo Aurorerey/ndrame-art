@@ -13,11 +13,18 @@ body {
 overflow: hidden;
 height: 100%;
 width: 230px;
+left: 0;
+top: 0;
 position: fixed;
 padding-top: 40px;
-background-color: lightgrey;
+background-color: #ecf0f1;
 font-family: 'Lato', sans-serif;
 }
+
+.container_linkpro {
+    padding-bottom: 20%;
+}
+
 
 .topnav a {
   text-decoration: none;
@@ -33,7 +40,7 @@ font-family: 'Lato', sans-serif;
 
 .topnav a.active {
 
-  color: white;
+  color: black;
 }
 
 .topnav .icon {
@@ -42,9 +49,8 @@ font-family: 'Lato', sans-serif;
 
 @media screen and (max-width: 600px) {
   .topnav {
-    overflow: hidden;
-    width: 100px;
-    height: 200px;
+    width: 70px;
+    height: 100px;
     background-color: #F4F4F4;
   }
   .topnav a:not(:first-child) {display: none;}
@@ -55,7 +61,7 @@ font-family: 'Lato', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;
+  .topnav.responsive {
     background-color: lightgrey;
     width: 280px;
     height: 500px;
@@ -76,7 +82,11 @@ font-family: 'Lato', sans-serif;
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="home" class="active">Home</a>
+
+
+  <div class="container_linkpro">
+
+  <a href="home" class="active">'ndrame</a>
   <a href="projet_1">Oro rosso</a>
   <a href="projet_2">Red thread</a>
   <a href="projet_3">The lovers</a>
@@ -85,11 +95,13 @@ font-family: 'Lato', sans-serif;
   <a href="projet_6">From personal to political</a>
   <a href="projet_7">Of blood and sea</a>
   <a href="projet_8">Street art</a>
+  </div>
   <a href="press">Press & Project</a>
   <a href="bio">Press & Bio</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
+
 </div>
 </div>
 
