@@ -10,5 +10,7 @@ Rails.application.routes.draw do
   get 'projet_5', to: 'pages#projet_5'
   get 'projet_6', to: 'pages#projet_6'
   get 'projet_7', to: 'pages#projet_7'
+  get 'projet_8', to: 'pages#projet_8'
+  get 'projet_9', to: 'pages#projet_9'
 
 end
