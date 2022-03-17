@@ -12,5 +12,6 @@ Rails.application.routes.draw do
   get 'projet_7', to: 'pages#projet_7'
   get 'projet_8', to: 'pages#projet_8'
   get 'projet_9', to: 'pages#projet_9'
+  get 'home', to: 'pages#home'
 
 end
