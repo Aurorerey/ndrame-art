@@ -15,7 +15,7 @@ height: 100%;
 width: 230px;
 position: fixed;
 padding-top: 40px;
-background-color: red;
+background-color: lightgrey;
 font-family: 'Lato', sans-serif;
 }
 
@@ -32,7 +32,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .topnav a.active {
-  background-color: black;
+
   color: white;
 }
 
@@ -41,8 +41,12 @@ font-family: 'Lato', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav {height: 50%;
-width: 50px;}
+  .topnav {
+    overflow: hidden;
+    width: 100px;
+    height: 200px;
+    background-color: #F4F4F4;
+  }
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -52,7 +56,10 @@ width: 50px;}
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;
-    background-color: green;}
+    background-color: lightgrey;
+    width: 280px;
+    height: 500px;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -69,7 +76,7 @@ width: 50px;}
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="home" class="active">projet</a>
+  <a href="home" class="active">Home</a>
   <a href="projet_1">Oro rosso</a>
   <a href="projet_2">Red thread</a>
   <a href="projet_3">The lovers</a>
