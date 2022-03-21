@@ -1,4 +1,31 @@
 .container_caroussel{
 
+}
 
+.container_projet_2 {
+display: flex;
+flex-direction: column;
+align-items: end;
+padding-top: 2%;
+padding-left: 6%;
+padding-right: 4%;
+padding-bottom: 5%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .container_projet_2 {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 25%;
+  }
+ }
+
+.container_titre h1, h2 {
+  display: inline;
+}
+
+.container_description {
+  padding-bottom: 4%;
 }
