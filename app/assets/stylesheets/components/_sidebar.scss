@@ -39,7 +39,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .topnav a.different {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .topnav .icon {
@@ -48,14 +48,15 @@ font-family: 'Lato', sans-serif;
 
 @media screen and (max-width: 800px) {
   .topnav {
-    width: 55px;
-    height: 70px;
+    width: 34px;
+    height: 52px;
     background-color: #F4F4F4;
   }
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
+    padding-right: 8px;
   }
 }
 
@@ -63,12 +64,13 @@ font-family: 'Lato', sans-serif;
   .topnav.responsive {
     background-color: #ecf0f1;
     width: 260px;
-    height: 450px;
+    height: 420px;
     padding-top: 40px;
+    font-size: 16px;
   }
 
   .topnav.responsive .container_linkpro {
-    padding-top: 10%;
+    padding-top: 1%;
     padding-bottom: 20%;
     padding-left:  20px;
 

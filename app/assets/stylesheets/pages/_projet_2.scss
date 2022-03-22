@@ -1,8 +1,8 @@
-.container_caroussel{
+.caroussel-inner {
 
 }
 
-.container_projet_2 {
+.container_projet {
 display: flex;
 flex-direction: column;
 align-items: end;
@@ -14,11 +14,13 @@ padding-bottom: 5%;
 
 
 @media screen and (max-width: 800px) {
-  .container_projet_2 {
+  .container_projet {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding-top: 22%;
+padding-top: 10%;
+padding-right: 8%;
+padding-left: 34px;
   }
  }
 
@@ -32,7 +34,7 @@ padding-top: 22%;
 
 @media screen and (max-width: 800px) {
   .container_description {
-font-size: 12px;
+font-size: 13px;
   }
  }
 
