@@ -18,14 +18,35 @@ padding-bottom: 5%;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding-top: 25%;
+padding-top: 22%;
   }
  }
 
-.container_titre h1, h2 {
+.container_titre h1, h3 {
   display: inline;
 }
 
+.container_titre p {
+  font-style: oblique;
+}
+
+@media screen and (max-width: 800px) {
+  .container_description {
+font-size: 12px;
+  }
+ }
+
+ @media screen and (max-width: 800px) {
+  .container_titre p {
+font-size: 14px;
+  }
+ }
+
+
+.container_titre {
+  padding-bottom: 3%;
+}
+
 .container_description {
-  padding-bottom: 4%;
+  font-weight: lighter;
 }
