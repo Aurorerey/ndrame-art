@@ -12,7 +12,7 @@ font-family: 'Lato', sans-serif;
 .container_linkpro {
     padding-top: 70%;
     padding-bottom: 20%;
-    padding-left:  30px;
+    padding-left:  28px;
 }
 
 .container_list_project {
@@ -24,7 +24,7 @@ font-family: 'Lato', sans-serif;
   text-decoration: none;
   color: black;
   display: block;
-  line-height: 2;
+  line-height: 34px;
 }
 
 .topnav a:hover {
@@ -40,6 +40,12 @@ font-family: 'Lato', sans-serif;
 
 .topnav a.different {
   padding-top: 40px;
+}
+
+.topnav a.long_title {
+  line-height: 18px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .topnav .icon {
