@@ -1,15 +1,4 @@
 // Specific CSS for your home-page
-body{
-  font-family: 'lato', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
-    background-color: #ffffff;
-  }
-
-
 
 .container_home {
 display: flex;
@@ -17,18 +6,6 @@ flex-direction: column;
 align-items: end;
 padding-top: 4%;
 }
-
-
-@media screen and (max-width: 800px) {
-  .container_home {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding-top: 26%;
-padding-left: 4%;
-padding-right: 2%;
-  }
- }
 
 
 .container_dialetto {
