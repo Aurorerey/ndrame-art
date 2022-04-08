@@ -1,19 +1,14 @@
-.container_photo {
-  padding-left: 10%;
-}
 
 
 .container_projet {
 display: flex;
 flex-direction: column;
-align-items: end;
+align-items: center;
 padding-top: 2%;
 padding-left: 6%;
 padding-right: 4%;
 padding-bottom: 5%;
 }
-
-
 
 .container_titre h1, h3 {
   display: inline;
@@ -23,11 +18,10 @@ padding-bottom: 5%;
   font-style: oblique;
 }
 
-
 .container_titre {
   padding-bottom: 3%;
 }
 
-.container_description {
-
+.container_photo {
+  justify-content: center;
 }
