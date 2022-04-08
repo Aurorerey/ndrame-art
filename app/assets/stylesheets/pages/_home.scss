@@ -1,34 +1,17 @@
 // Specific CSS for your home-page
 body{
-  font-family: 'lato', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
-    background-color: #ffffff;
-  }
-
-
+  padding:0;
+  margin:0;
+  font-family:sans-serif;
+  background-color: #eceff4;
+}
 
 .container_home {
 display: flex;
 flex-direction: column;
-align-items: end;
+align-items: center;
 padding-top: 4%;
 }
-
-
-@media screen and (max-width: 800px) {
-  .container_home {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding-top: 26%;
-padding-left: 4%;
-padding-right: 2%;
-  }
- }
 
 
 .container_dialetto {
@@ -51,12 +34,6 @@ padding-right: 2%;
 }
 .container_dialetto h2 {
   padding-top: 6px;
-}
-
-
-.container_home_pic {
-padding-right: 10px;
-
 }
 
 
