@@ -12,12 +12,10 @@ font-size:30px;
 
 }
 
-.container_contact_link {
-
-}
-
 .container_contact_link_1 {
   display: flex;
+  font-size: 20px;
+
 
 }
 
@@ -26,6 +24,7 @@ font-size:30px;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
+    font-size: 20px;
 }
 
 .container_contact_link p {
@@ -43,7 +42,10 @@ font-size:34px;
 }
 
 .insta {
+padding-left: 10px;
+}
 
-
-
+.mail {
+   padding-left: 10px;
+    padding-top: 10px;
 }
