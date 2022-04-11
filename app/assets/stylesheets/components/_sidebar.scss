@@ -1,8 +1,12 @@
 
-.container_sidebar img {
+.logo_btn {
   width: 200px;
   padding-left: 10px;
   padding-top: 14px;
+}
+
+.drop_btn {
+ width: 80px;
 }
 
 .container_sidebar h1{
@@ -59,8 +63,8 @@ aside button{
   border:none;
   background:none;
   position: absolute;
-  right:-75px; top:23px;
-  font-size:30px;
+  right:-130px; top:23px;
+
   display:inline-block;
   cursor:pointer
 }

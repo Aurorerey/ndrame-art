@@ -1,3 +1,8 @@
+.container_bio p {
+  font-size:34px;
+
+}
+
 .container_contact {
 font-size:30px;
 }
@@ -8,29 +13,37 @@ font-size:30px;
 }
 
 .container_contact_link {
-    padding-bottom: 12px;
-    padding-left: 68px;
+
+}
+
+.container_contact_link_1 {
+  display: flex;
+
+}
+
+.container_contact_link_2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
 }
 
 .container_contact_link p {
-display: inline;
-font-size:30px;
+font-size:34px;
 }
 
-.icon_lettre {
+.icon_mail {
 
-  max-width: 50px;
+  max-width: 36px;
 }
 
 .icon_insta {
 
-  max-width: 40px;
-
+  max-width: 30px;
 }
 
 .insta {
-padding-right: 300px;
-padding-top: 20px;
+
 
 
 }
