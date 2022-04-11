@@ -10,12 +10,12 @@ body{
 display: flex;
 flex-direction: column;
 align-items: center;
-padding-top: 4%;
 }
 
 
 .container_dialetto {
-  padding-bottom: 50px;
+  padding-top: 50px;
+  position: absolute;
 }
 
 .container_dialetto h1, h3 {
@@ -23,18 +23,25 @@ padding-top: 4%;
 }
 
 .container_dialetto h1 {
-  font-weight: bold;
+  font-weight: bolder;
 
 }
 
 .container_dialetto h3 {
   font-style: oblique;
   font-weight: lighter;
+  font-size: 40px;
 
 }
 .container_dialetto h2 {
   padding-top: 6px;
+  font-size: 40px;
+
 }
 
+.container_home_pic {
+  padding-top: 26px;
+  max-width: 900px;
+}
 
 
