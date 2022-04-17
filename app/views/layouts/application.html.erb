@@ -21,7 +21,10 @@
      <!-- futur footer render -->
     <%= yield %>
 
+
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     <script>
 $(document).ready(function(){
   $(".drop_btn").click(function(){
@@ -39,21 +42,7 @@ $(document).mouseup(function(e){
 });
  </script>
 
- <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script>
-<script>
-import Lightbox from 'bs5-lightbox';
 
-const options = {
-  keyboard: true,
-  size: 'fullscreen'
-};
-
-document.querySelectorAll('.my-lightbox-toggle').forEach((el) => el.addEventListener('click', (e) => {
-  e.preventDefault();
-  const lightbox = new Lightbox(el, options);
-  lightbox.show();
-}));
-</script>
 
   </body>
 </html>
