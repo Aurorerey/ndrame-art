@@ -1,10 +1,13 @@
 .footer {
-  color: black;
-  text-align: right;
-  position: absolute;
-  font-size: 6px;
-  bottom: 0;
-  width: 100%;
-  padding-right: 10px;
-  height: 2,5rem;            /* Footer height */
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: black;
+    font-size: 10px;
+  text-align: center;
+
 }
