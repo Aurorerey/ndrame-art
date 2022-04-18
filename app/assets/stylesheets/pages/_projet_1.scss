@@ -6,6 +6,9 @@ text-align: center;
 
 }
 
+.container_titre {
+  padding-top: 14px;
+}
 
 .photo_description {
 padding-bottom: 10px;
@@ -50,12 +53,16 @@ padding-bottom: 10px;
   padding-bottom: 30px;
 }
 
+.politique p {
+  text-decoration: none;
+  color: black;
+}
 
 .arrows {
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  gap: 250px;
+  gap: 240px;
 }
 
 .arrows a {
