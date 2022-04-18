@@ -1,14 +1,6 @@
 
 
-.container_projet {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding-top: 2%;
-padding-left: 6%;
-padding-right: 4%;
-padding-bottom: 5%;
-}
+
 
 .container_titre h1, h3 {
   display: inline;
@@ -20,15 +12,11 @@ padding-bottom: 5%;
 
 .container_titre {
   justify-content: center;
-  padding-bottom: 3%;
+  padding-bottom: 16px;
+
 }
 
 .container_projet_pic {
   justify-content: center;
 
 }
-
-#carouselExampleCaptions {
- position: relative;
- z-index: 0;
- }

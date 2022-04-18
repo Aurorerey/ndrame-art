@@ -1,1 +1,51 @@
+.container_projet {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
 
+}
+
+
+.photo_description {
+padding-bottom: 10px;
+}
+
+.container_description {
+  padding-bottom: 20px;
+}
+
+.photo_invisible {
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10%;
+  padding-top: 8%;
+}
+
+.photo_library {
+
+
+}
+
+.palazzo {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10%;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.palazzo img {
+    border: 5px solid transparent;
+}
+
+
+.politique {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+}
