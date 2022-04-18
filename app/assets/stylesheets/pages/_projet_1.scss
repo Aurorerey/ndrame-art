@@ -18,6 +18,26 @@ padding-bottom: 10px;
   padding-bottom: 20px;
 }
 
+
+
+.container_titre h1, h3 {
+  display: inline;
+}
+
+.container_titre p {
+  font-style: oblique;
+}
+
+.container_titre {
+  justify-content: center;
+  padding-bottom: 16px;
+
+}
+
+
+/////
+
+
 .photo_invisible {
   max-width: 1000px;
   justify-content: center;
@@ -25,6 +45,8 @@ padding-bottom: 10px;
   padding-bottom: 10%;
   padding-top: 8%;
 }
+
+
 
 .photo_library {
 
@@ -53,7 +75,7 @@ padding-bottom: 10px;
   padding-bottom: 30px;
 }
 
-.politique p {
+.politique a {
   text-decoration: none;
   color: black;
 }
@@ -71,6 +93,8 @@ padding-bottom: 10px;
   font-size: 24px;
   font-weight: lighter;
 }
+
+//////
 
 
 #scrollToTopBtn {

@@ -1,22 +1,50 @@
 
 
-
-
-.container_titre h1, h3 {
-  display: inline;
+.oro_top {
+display: flex;
+flex-direction: row;
+margin: 10px;
+gap: 60px;
 }
 
-.container_titre p {
-  font-style: oblique;
-}
-
-.container_titre {
+.oro_middle  {
+  width: 600px;
   justify-content: center;
-  padding-bottom: 16px;
+  align-items: center;
+  margin: 10px;
+}
+
+.oro_bottom {
+display: flex;
+flex-direction: row;
+margin: 10px;
+gap: 240px;
 
 }
 
-.container_projet_pic {
-  justify-content: center;
+.oro_1 {
+   width: 400px;
+}
+
+.oro_2 {
+   width: 300px;
+}
+
+.oro_3 {
+   width: 500px;
+}
+
+.oro_4 {
+ width: 400px;
 
 }
+
+
+.oro_5 {
+      width: 500px;
+}
+
+
+/////
+
+
