@@ -1,22 +1,69 @@
 
 
-
-
-.container_titre h1, h3 {
-  display: inline;
-}
-
-.container_titre p {
-  font-style: oblique;
-}
-
-.container_titre {
-  justify-content: center;
-  padding-bottom: 16px;
+.oro_top {
+display: flex;
+flex-direction: row;
+margin: 10px;
+gap: 40px;
 
 }
 
-.container_projet_pic {
-  justify-content: center;
+.oro_middle  {
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 
+}
+
+.oro_bottom {
+display: flex;
+flex-direction: row;
+margin: 10px;
+gap: 200px;
+
+
+}
+
+.oro_1 {
+   width: 300px;
+}
+
+.oro_2 {
+   width: 200px;
+}
+
+.oro_3 {
+   width: 400px;
+}
+
+.oro_4 {
+ width: 300px;
+
+}
+
+
+.oro_5 {
+      width: 400px;
+}
+
+
+/////
+
+.path {
+  position: absolute;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 6s linear alternate infinite;
+  z-index: 1;
+
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
