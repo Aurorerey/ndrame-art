@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   def home
   end
-  def projet_1
+  def intimacy
   end
   def projet_2
   end
