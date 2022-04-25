@@ -3,19 +3,19 @@ class PagesController < ApplicationController
   end
   def intimacy
   end
-  def projet_2
+  def oro_rosso
   end
-  def projet_3
+  def blood_sea
   end
-  def projet_4
+  def red_thread
   end
-  def projet_5
+  def the_lovers
   end
-  def projet_6
+  def garden
   end
-  def projet_7
+  def ce_ccose_ndrame
   end
-  def projet_8
+  def street_art
   end
   def projet_9
   end
@@ -24,3 +24,4 @@ class PagesController < ApplicationController
   def press
   end
 end
+
