@@ -12,21 +12,25 @@ body{
 }
 
 .container_home {
+
   align-items: center;
 
 }
 
 .container_dialetto {
-position: absolute;
-margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-padding-top: 60px;
+  position: absolute;
+  padding-left: 150px;
+padding-top: 200px;
 text-align: center;
-  z-index: 4;
-
+z-index: 1;
   cursor: default;
+}
+
+
+@media only screen and (max-width: 400px) {
+  .container_dialetto h1, h2, h3 {
+    font-size: 30px;
+  }
 }
 
 .container_dialetto h1, h3 {
@@ -37,7 +41,7 @@ text-align: center;
   font-weight: bolder;
   font-size: 66px;
   color: #551117;
-  opacity: 80%;
+  opacity: 88%;
 }
 
 .container_dialetto h3 {
@@ -45,7 +49,7 @@ text-align: center;
   font-weight: lighter;
   font-size: 56px;
   color: #551117;
-  opacity: 80%;
+  opacity: 88%;
 
 
 }
@@ -53,7 +57,7 @@ text-align: center;
   padding-top: 6px;
   font-size: 56px;
     color: #551117;
-    opacity: 80%;
+    opacity: 88%;
 
 }
 
@@ -65,13 +69,12 @@ text-align: center;
 .container_home_pic img {
   width: 900px;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 
 .letters {
   display:inline-block;
-  white-space:nowrap;
 
 }
 
@@ -108,7 +111,7 @@ text-align: center;
 
 
 @keyframes fadein {
-    0% {opacity:0.8;}
+    0% {opacity:1;}
     20% {opacity:1;}
     60% {opacity:1;}
     100% {opacity:0.4;}
@@ -118,7 +121,7 @@ text-align: center;
 .btn_discover a {
   text-decoration: none;
   color: #551117;
-  opacity: 78%;
+  opacity: 88%;
   font-size: 50px;
 }
 
