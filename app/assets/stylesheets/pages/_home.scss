@@ -3,21 +3,30 @@ body{
   padding:0;
   margin:0;
   font-family:sans-serif;
-  background-color: #eceff4;
+  background-color: #E9EAEC;
+  text-align:center;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
 
 }
 
 .container_home {
-display: flex;
-flex-direction: column;
-align-items: center;
+  align-items: center;
+
 }
 
-
 .container_dialetto {
-  padding-top: 230px;
-  padding-right: 120px;
-  position: absolute;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+padding-top: 60px;
+text-align: center;
+  z-index: 4;
+
+  cursor: default;
 }
 
 .container_dialetto h1, h3 {
@@ -26,25 +35,100 @@ align-items: center;
 
 .container_dialetto h1 {
   font-weight: bolder;
-
+  font-size: 66px;
+  color: #551117;
+  opacity: 80%;
 }
 
 .container_dialetto h3 {
   font-style: oblique;
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 56px;
+  color: #551117;
+  opacity: 80%;
+
 
 }
 .container_dialetto h2 {
   padding-top: 6px;
-  font-size: 40px;
+  font-size: 56px;
+    color: #551117;
+    opacity: 80%;
 
 }
 
 .container_home_pic {
   padding-top: 26px;
-  max-width: 900px;
+
+}
+
+.container_home_pic img {
+  width: 900px;
+  position: relative;
+  z-index: -1;
+}
+
+
+.letters {
+  display:inline-block;
+  white-space:nowrap;
+
+}
+
+.letters:first-of-type {
+  animation: showup 7s;
+  animation-fill-mode: forwards;
+}
+
+.letters:last-of-type {
+  width:0px;
+
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    40% {opacity:0;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+
+@keyframes reveal {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+
+.container_home_pic {
+  animation: fadein 6s;
+   animation-fill-mode: forwards;
 }
 
 
 
+@keyframes fadein {
+    0% {opacity:0.8;}
+    20% {opacity:1;}
+    60% {opacity:1;}
+    100% {opacity:0.4;}
+}
+
+
+.btn_discover a {
+  text-decoration: none;
+  color: #551117;
+  opacity: 78%;
+  font-size: 50px;
+}
+
+.btn_discover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.image_discover {
+ width: 300px;
+}
