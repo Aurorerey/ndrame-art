@@ -1,0 +1,24 @@
+.arrows {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 240px;
+}
+
+.arrows a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+//////
+
+
+#scrollToTopBtn {
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  width: 50px;
+}
