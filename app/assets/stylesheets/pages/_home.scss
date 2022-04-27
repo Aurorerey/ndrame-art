@@ -1,14 +1,20 @@
 
 .container_home {
   align-items: center;
+  font-family: 'League Gothic', sans-serif;
 
 }
 
 .container_dialetto {
   position: absolute;
-  padding-left: 130px;
-  padding-top: 148px;
+  display:block;
   text-align: center;
+  height: 1000px;
+  width: 1000px;
+  right: 50%;
+  top: 85%;
+      margin-right: -500px;
+    margin-top: -500px;
   z-index: 1;
   cursor: default;
 }
@@ -25,7 +31,8 @@
 }
 
 .container_dialetto h1 {
-  font-weight: bolder;
+
+
   font-size: 66px;
   color: #551117;
   opacity: 88%;
@@ -41,10 +48,14 @@
 
 }
 .container_dialetto h2 {
-  padding-top: 6px;
+  font-family: 'League Gothic', sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  padding-top: 22px;
   font-size: 56px;
-    color: #551117;
-    opacity: 88%;
+  color: #551117;
+  opacity: 88%;
+  line-height: 60px;
 
 }
 
