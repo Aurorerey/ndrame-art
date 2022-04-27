@@ -1,28 +1,21 @@
-// Specific CSS for your home-page
-body{
-  padding:0;
-  margin:0;
-  font-family:sans-serif;
-  background-color: #E9EAEC;
-  text-align:center;
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
-  -webkit-transform: translate3d(0,0,0);
-
-}
 
 .container_home {
-
   align-items: center;
+  font-family: 'League Gothic', sans-serif;
 
 }
 
 .container_dialetto {
   position: absolute;
-  padding-left: 150px;
-padding-top: 200px;
-text-align: center;
-z-index: 1;
+  display:block;
+  text-align: center;
+  height: 1000px;
+  width: 1000px;
+  right: 50%;
+  top: 85%;
+      margin-right: -500px;
+    margin-top: -500px;
+  z-index: 1;
   cursor: default;
 }
 
@@ -38,7 +31,8 @@ z-index: 1;
 }
 
 .container_dialetto h1 {
-  font-weight: bolder;
+
+
   font-size: 66px;
   color: #551117;
   opacity: 88%;
@@ -54,10 +48,14 @@ z-index: 1;
 
 }
 .container_dialetto h2 {
-  padding-top: 6px;
+  font-family: 'League Gothic', sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  padding-top: 22px;
   font-size: 56px;
-    color: #551117;
-    opacity: 88%;
+  color: #551117;
+  opacity: 88%;
+  line-height: 60px;
 
 }
 
@@ -73,13 +71,18 @@ z-index: 1;
 }
 
 
+.btn_discover {
+  animation: showup 7s;
+  animation-fill-mode: forwards;
+}
+
 .letters {
   display:inline-block;
 
 }
 
 .letters:first-of-type {
-  animation: showup 7s;
+  animation: showup 6s;
   animation-fill-mode: forwards;
 }
 
@@ -121,7 +124,6 @@ z-index: 1;
 .btn_discover a {
   text-decoration: none;
   color: #551117;
-  opacity: 88%;
   font-size: 50px;
 }
 
@@ -129,9 +131,25 @@ z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 20px;
+  z-index: 8;
 }
 
-.image_discover {
- width: 300px;
+.btn_discover img {
+ width: 140px;
 }
+
+
+.btn_discover img:hover {
+ width: 140px;
+-webkit-filter: drop-shadow(3px 3px 3px #F4F5F5);
+  filter: drop-shadow(3px 3px 3px #F4F5F5);
+}
+
+
+
+.btn_discover a {
+  position: absolute;
+}
+
+

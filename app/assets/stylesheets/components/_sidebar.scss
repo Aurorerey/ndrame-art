@@ -14,6 +14,11 @@
  width: 60px;
 }
 
+.drop_btn:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px #BFC1C5);
+  filter: drop-shadow(5px 5px 5px #BFC1C5);
+}
+
 .container_sidebar h1{
   margin:0;
   color:black;
