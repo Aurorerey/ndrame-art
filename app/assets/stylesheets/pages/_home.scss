@@ -11,17 +11,16 @@ body{
 }
 
 .container_home {
-
   align-items: center;
 
 }
 
 .container_dialetto {
   position: absolute;
-  padding-left: 150px;
-padding-top: 200px;
-text-align: center;
-z-index: 1;
+  padding-left: 130px;
+  padding-top: 148px;
+  text-align: center;
+  z-index: 1;
   cursor: default;
 }
 
@@ -72,13 +71,18 @@ z-index: 1;
 }
 
 
+.btn_discover {
+  animation: showup 7s;
+  animation-fill-mode: forwards;
+}
+
 .letters {
   display:inline-block;
 
 }
 
 .letters:first-of-type {
-  animation: showup 7s;
+  animation: showup 6s;
   animation-fill-mode: forwards;
 }
 
@@ -120,7 +124,6 @@ z-index: 1;
 .btn_discover a {
   text-decoration: none;
   color: #551117;
-  opacity: 88%;
   font-size: 50px;
 }
 
@@ -128,13 +131,25 @@ z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 20px;
+  z-index: 8;
 }
 
-.image_discover {
- width: 300px;
+.btn_discover img {
+ width: 140px;
 }
 
 
+.btn_discover img:hover {
+ width: 140px;
+-webkit-filter: drop-shadow(5px 5px 5px #F4F5F5);
+  filter: drop-shadow(5px 5px 5px #F4F5F5);
+}
+
+
+
+.btn_discover a {
+  position: absolute;
+}
 
 
