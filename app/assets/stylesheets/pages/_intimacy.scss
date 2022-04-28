@@ -3,20 +3,12 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-
 }
 
-.container_titre {
-  padding-top: 14px;
-}
-
-.photo_description {
-
-padding-bottom: 10px;
-}
 
 .container_description {
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 
@@ -31,7 +23,8 @@ padding-bottom: 10px;
 
 .container_titre {
   justify-content: center;
-  padding-bottom: 16px;
+  padding-bottom: 6px;
+  padding-top: 14px;
 
 }
 
@@ -41,7 +34,6 @@ padding-bottom: 10px;
 
 .photo_invisible {
   max-width: 1000px;
-
   padding-bottom: 6%;
   padding-top: 4%;
 }

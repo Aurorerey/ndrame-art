@@ -1,0 +1,35 @@
+.photo_library_thread {
+
+}
+
+.black_thread {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: lighter;
+  margin: 7px;
+}
+
+.black_thread img {
+    border: 5px solid black;
+}
+
+
+.skull_thread {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+
+
+.skull_thread img {
+    border: 5px solid black;
+}
+
+.photo_description_thread img {
+   border: 5px solid black;
+}
