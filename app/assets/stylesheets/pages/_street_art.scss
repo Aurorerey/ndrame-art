@@ -1,0 +1,52 @@
+.container_description_street {
+  padding-bottom: 30px;
+}
+
+
+.street_lesbien {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3%;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.street_menstrual{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3%;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.street_bottom {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3%;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: lighter;
+  margin: 10px;
+  padding-bottom: 80px;
+}
+
+.street_video {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 46.25%;
+  padding-top: 30px;
+  position: relative;
+   }
+
+.street_video iframe, .street_video object, .street_video embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  }
+
