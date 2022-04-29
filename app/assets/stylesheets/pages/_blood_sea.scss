@@ -1,35 +1,36 @@
-.hypo {
-  display: flex;
-  align-items: center;
-  padding-bottom: 20px;
+.photo_library_sea {
+
 }
 
 .carnet {
-    display: flex;
+  display: flex;
   justify-content: space-around;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   font-size: 20px;
   font-style: oblique;
   font-weight: lighter;
-  margin: 30px;
-  gap: 10px;
-  padding-bottom: 30px;
-
+  margin: 7px;
 }
 
-.carnet_detail {
-    display: flex;
+.carnet img {
+    border: 5px solid white;
+}
+
+
+.skull_thread {
+  display: flex;
   justify-content: space-around;
-  padding-bottom: 5px;
-  font-size: 20px;
-  font-style: oblique;
-  font-weight: lighter;
-  margin: 30px;
-  gap: 10px;
-  padding-bottom: 30px;
+  align-items: center;
+  padding-bottom: 80px;
 }
 
 
-.mollusque {
 
+.skull_thread img {
+    border: 5px solid black;
+}
+
+.photo_description_sea img {
+   max-width: 800px;
 }
