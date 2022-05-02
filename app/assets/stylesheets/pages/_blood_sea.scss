@@ -3,34 +3,33 @@
 }
 
 .carnet {
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.carnet_1 {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  font-size: 20px;
-  font-style: oblique;
-  font-weight: lighter;
-  margin: 7px;
+  flex-wrap: wrap;
 }
 
 .carnet img {
-    border: 5px solid white;
+
+
 }
 
-
-.skull_thread {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 80px;
+.carnet_hyppo {
+      display: flex;
+    padding-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
 }
 
-
-
-.skull_thread img {
-    border: 5px solid black;
-}
-
-.photo_description_sea img {
+.carnet_hyppo img {
+  border: 5px solid white;
 
 }
