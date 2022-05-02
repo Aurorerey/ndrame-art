@@ -26,9 +26,22 @@ animation-fill-mode: forwards;
 }
 
 .container_dialetto {
-  padding-top: 100px;
+  padding-top: 145px;
   position: relative;
 
+}
+
+
+@media screen and (max-width: 600px) {
+  .container_dialetto h2 {
+    font-size: 40px;
+
+  }
+}
+@media screen and (max-width: 600px) {
+  .container_dialetto {
+   padding-top: 100px;
+  }
 }
 
 .container_dialetto h1, h3 {
