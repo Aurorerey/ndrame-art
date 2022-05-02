@@ -1,28 +1,34 @@
 
 .container_home {
-  font-family: 'League Gothic', sans-serif;
+font-family: 'League Gothic', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+height: 750px;
+}
+
+
+.container_home::before {
+content: "";
+background-image: url(https://res.cloudinary.com/cloudpandora/image/upload/v1649691840/COULERES_de%CC%81tail_site_dafova.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+animation: fadein 6s;
+animation-fill-mode: forwards;
 
 }
 
 .container_dialetto {
-  position: absolute;
-  display:block;
-  text-align: center;
-  height: 1000px;
-  width: 1000px;
-  right: 50%;
-  top: 85%;
-  margin-right: -500px;
-  margin-top: -500px;
-  z-index: 1;
-  cursor: default;
-}
+  padding-top: 100px;
+  position: relative;
 
-
-@media only screen and (max-width: 400px) {
-  .container_dialetto h1, h2, h3 {
-    font-size: 30px;
-  }
 }
 
 .container_dialetto h1, h3 {
@@ -30,8 +36,6 @@
 }
 
 .container_dialetto h1 {
-
-
   font-size: 66px;
   color: #551117;
   opacity: 88%;
@@ -58,16 +62,6 @@
 
 }
 
-.container_home_pic {
-  padding-top: 26px;
-
-}
-
-.container_home_pic img {
-  width: 900px;
-  position: relative;
-  z-index: 0;
-}
 
 
 .btn_discover {
@@ -105,9 +99,10 @@
 }
 
 
-.container_home_pic {
-  animation: fadein 6s;
-   animation-fill-mode: forwards;
+.background-image {
+z-index: 0;
+
+
 }
 
 
@@ -146,9 +141,5 @@
 }
 
 
-
-.btn_discover a {
-  position: absolute;
-}
 
 
