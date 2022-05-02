@@ -9,19 +9,48 @@ text-align: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 75px;
+  padding-top: 20px;
+}
+
+.bottom_oro img {
+  box-shadow: 10px 10px 5px #ccc;
 }
 
 .top_oro {
     display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 40px;
+
+}
+
+.top_oro img {
+    box-shadow: 10px 10px 5px #ccc;
 }
 
 .middle_oro {
-  max-width: 600px;
-    justify-content: center;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.middle_oro img {
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+.three_oro {
+    display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: lighter;
+  margin: 20px;
+  gap: 10px;
+}
+
+.three_oro img {
+  box-shadow: 10px 10px 5px #ccc;
+  max-width: 400px;
 }
