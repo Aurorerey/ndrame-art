@@ -1,9 +1,12 @@
+
 .carnet {
     display: flex;
     padding-top: 50px;
     gap: 10px;
     flex-wrap: wrap;
    justify-content: space-evenly;
+     font-style: oblique;
+  font-weight: lighter;
 }
 
 .carnet_1 {
@@ -11,13 +14,16 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 30px;
+    font-style: oblique;
+  font-weight: lighter;
 }
 
 
-.carnet_hyppo {
+.hyppo {
     display: flex;
-
    justify-content: space-evenly;
+     font-style: oblique;
+  font-weight: lighter;
 }
 
 
