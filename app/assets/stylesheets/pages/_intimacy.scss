@@ -5,6 +5,13 @@ align-items: center;
 text-align: center;
 }
 
+.container_projet a {
+  font-style: oblique;
+  font-weight: lighter;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
 
 .container_description {
   padding-bottom: 20px;
@@ -53,16 +60,23 @@ text-align: center;
     border: 5px solid transparent;
 }
 
+.palazzo p {
+    justify-content: end;
+    display: flex;
+    padding-right: 5px;
+}
+
 
 .politique {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
-.politique a {
-  text-decoration: none;
-  color: black;
+
+.politique p {
+    justify-content: end;
+    display: flex;
+    padding-right: 5px;
 }
 

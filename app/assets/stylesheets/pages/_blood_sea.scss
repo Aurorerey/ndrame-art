@@ -1,35 +1,45 @@
-.photo_library_sea {
-
-}
 
 .carnet {
     display: flex;
-    padding-top: 10px;
+    padding-top: 50px;
     gap: 10px;
     flex-wrap: wrap;
    justify-content: space-evenly;
+
 }
+
+.carnet p {
+      justify-content: end;
+    display: flex;
+    padding-right: 5px;
+}
+
 
 .carnet_1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-}
-
-.carnet img {
-
+  padding-top: 30px;
 
 }
 
-.carnet_hyppo {
-      display: flex;
-    padding-top: 10px;
-    gap: 10px;
-    flex-wrap: wrap;
+.carnet_1 p {
+      justify-content: end;
+    display: flex;
+    padding-right: 5px;
+}
+
+
+.hyppo {
+    display: flex;
    justify-content: space-evenly;
-}
-
-.carnet_hyppo img {
-  border: 5px solid white;
 
 }
+
+
+.hyppo p {
+      justify-content: end;
+    display: flex;
+    padding-right: 5px;
+}
+

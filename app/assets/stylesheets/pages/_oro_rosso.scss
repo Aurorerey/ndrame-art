@@ -12,9 +12,11 @@ text-align: center;
   padding-top: 20px;
 }
 
+
 .bottom_oro img {
-  box-shadow: 10px 10px 5px #ccc;
+    border: 5px solid black;
 }
+
 
 .top_oro {
     display: flex;
@@ -24,19 +26,17 @@ text-align: center;
 }
 
 .top_oro img {
-    box-shadow: 10px 10px 5px #ccc;
+    border: 5px solid black;
 }
 
 .middle_oro {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+
   padding-top: 10px;
   padding-bottom: 20px;
 }
 
 .middle_oro img {
-  box-shadow: 10px 10px 5px #ccc;
+  border: 5px solid black;
 }
 
 .three_oro {
@@ -51,6 +51,6 @@ text-align: center;
 }
 
 .three_oro img {
-  box-shadow: 10px 10px 5px #ccc;
+  border: 5px solid black;
 
 }
