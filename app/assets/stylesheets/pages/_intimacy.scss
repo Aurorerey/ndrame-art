@@ -42,6 +42,14 @@ text-align: center;
 
 }
 
+@media screen and (max-width: 600px) {
+  .container_titre {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+
+  }
+}
 
 /////
 
@@ -60,6 +68,7 @@ text-align: center;
   font-style: oblique;
   font-weight: lighter;
   margin: 10px;
+  flex-wrap: wrap;
 }
 
 .palazzo img {
@@ -78,6 +87,7 @@ text-align: center;
   justify-content: space-around;
   align-items: center;
   padding-top: 40px;
+  flex-wrap: wrap;
 }
 
 
