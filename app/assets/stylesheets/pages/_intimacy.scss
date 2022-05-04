@@ -13,7 +13,7 @@ text-align: center;
 }
 
 .container_projet a {
-  font-style: oblique;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-decoration: none;
   color: black;
@@ -21,6 +21,7 @@ text-align: center;
 }
 
 .container_description {
+  font-family: 'Lato', sans-serif;
   padding-bottom: 20px;
   padding-top: 6px;
 }
@@ -33,9 +34,6 @@ text-align: center;
 
 }
 
-.container_titre p {
-  font-style: oblique;
-}
 
 .container_titre {
   display: flex;
