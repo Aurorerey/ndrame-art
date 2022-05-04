@@ -74,9 +74,25 @@ aside button{
   border:none;
   background:none;
   position: absolute;
-  right:-82px; top:23px;
+  right:-87px; top:23px;
 
   display:inline-block;
   cursor:pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+  .drop_btn {
+    width: 42px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  aside button {
+  position: absolute;
+  right:-62px; top:20px;
+
+  }
 }
 

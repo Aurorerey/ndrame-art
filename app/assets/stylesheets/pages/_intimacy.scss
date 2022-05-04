@@ -5,6 +5,13 @@ align-items: center;
 text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  .container_projet {
+    padding-top: 30px;
+
+  }
+}
+
 .container_projet a {
   font-style: oblique;
   font-weight: lighter;
