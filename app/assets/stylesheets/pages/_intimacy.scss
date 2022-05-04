@@ -14,10 +14,10 @@ text-align: center;
 
 .container_projet a {
   font-style: oblique;
-  font-weight: lighter;
+  font-weight: 300;
   text-decoration: none;
   color: black;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .container_description {
@@ -28,7 +28,9 @@ text-align: center;
 
 
 .container_titre h1, h3 {
+  font-family: 'Merriweather', serif;
   display: inline;
+
 }
 
 .container_titre p {
@@ -36,9 +38,9 @@ text-align: center;
 }
 
 .container_titre {
-  justify-content: center;
-  padding-bottom: 6px;
-  padding-top: 14px;
+  display: flex;
+  padding-bottom: 12px;
+  padding-top: 20px;
 
 }
 
