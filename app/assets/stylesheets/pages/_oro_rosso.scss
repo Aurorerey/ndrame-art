@@ -1,3 +1,14 @@
+.container_titre_oro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  margin: 2px;
+
+}
+
+
+
 .bottom_oro {
   display: flex;
   justify-content: space-around;
@@ -23,8 +34,6 @@
 }
 
 .middle_oro {
-
-  padding-top: 10px;
   padding-bottom: 20px;
 }
 
