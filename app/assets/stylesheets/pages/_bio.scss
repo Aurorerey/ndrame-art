@@ -1,6 +1,9 @@
+.container_titre_bio {
+  padding-bottom: 10px;
+}
+
 .container_bio p {
   font-size:34px;
-
 }
 
 .container_contact {
@@ -22,6 +25,32 @@ font-size:30px;
 
 .container_contact_link p {
 font-size:34px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .container_contact_link_1 {
+        display: flex;
+    justify-content: flex-end;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container_contact_link_2 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container_titre_bio {
+    display: flex;
+        align-items: flex-end;
+    flex-direction: column;
+    padding-right: 8px;
+  }
 }
 
 .icon_mail {
