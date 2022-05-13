@@ -1,5 +1,6 @@
 .container_titre_bio {
   padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .container_bio p {
@@ -30,7 +31,7 @@ font-size:34px;
 
 @media screen and (max-width: 600px) {
   .container_contact_link_1 {
-        display: flex;
+    display: flex;
     justify-content: flex-end;
     padding-right: 8px;
   }
