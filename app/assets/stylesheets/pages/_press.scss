@@ -2,3 +2,31 @@
  margin-bottom: 30px;
  border-bottom: 1px solid black;
 }
+
+.exhibition_1 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+
+}
+
+@media screen and (max-width: 800px) {
+  .exhibition_1 {
+    flex-wrap: wrap;
+  }
+}
+
+.exhibition h3 {
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.container_press {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

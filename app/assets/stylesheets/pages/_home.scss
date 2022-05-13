@@ -103,13 +103,6 @@ animation-fill-mode: forwards;
   }
 }
 
-
-
-.btn_discover {
-  animation: showup 7s;
-  animation-fill-mode: forwards;
-}
-
 .letters {
   display:inline-block;
 
@@ -142,10 +135,7 @@ animation-fill-mode: forwards;
 
 .background-image {
 z-index: 0;
-
-
 }
-
 
 
 @keyframes fadein {
@@ -163,6 +153,8 @@ z-index: 0;
 }
 
 .btn_discover {
+  animation: glowing 5s infinite;
+  animation: showup 7s;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -171,7 +163,10 @@ z-index: 0;
 }
 
 .btn_discover img {
+  cursor: grab;
  width: 140px;
+ animation: glowing 5s infinite;
+
 }
 
 
@@ -181,6 +176,20 @@ z-index: 0;
   filter: drop-shadow(3px 3px 3px #F4F5F5);
 }
 
+@keyframes glowing {
+        0% {
+-webkit-filter: drop-shadow(3px 3px 3px #F4F5F5);
+  filter: drop-shadow(3px 3px 3px #F4F5F5);
+        }
+        50% {
+-webkit-filter: drop-shadow(3px 3px 3px black);
+  filter: drop-shadow(3px 3px 3px black);
+        }
+        100% {
+-webkit-filter: drop-shadow(3px 3px 3px #F4F5F5);
+  filter: drop-shadow(3px 3px 3px #F4F5F5);
+        }
+      }
 
 
 
