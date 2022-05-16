@@ -1,5 +1,5 @@
 meta_product_name: "'Ndrame art"
 meta_title: "'Ndrame art'- menstrual artist"
 meta_description: "'Ndrame is an italian artist mostly working with menstrual blood"
-meta_image: "cover.png" # should exist in `app/assets/images/`
+meta_image: "og_image.jpg" # should exist in `app/assets/images/`
 twitter_account: "@product_twitter_account"   # required for Twitter Cards
