@@ -165,6 +165,7 @@ z-index: 0;
 .btn_discover img {
   cursor: pointer;
  width: 140px;
+ opacity: 90%;
  animation: glowing 5s infinite;
 
 }
@@ -182,8 +183,8 @@ z-index: 0;
   filter: drop-shadow(3px 3px 3px #F4F5F5);
         }
         50% {
--webkit-filter: drop-shadow(2px 2px 2px black);
-  filter: drop-shadow(2px 2px 2px black);
+-webkit-filter: drop-shadow(2px 2px 2px white);
+  filter: drop-shadow(2px 2px 2px white);
         }
         100% {
 -webkit-filter: drop-shadow(3px 3px 3px #F4F5F5);
