@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
 
-  get 'bio', to: 'pages#bio'
-  get 'press', to: 'pages#press'
-  get 'intimacy', to: 'pages#intimacy'
-  get 'blood_sea', to: 'pages#blood_sea'
+  get 'biography', to: 'pages#biography'
+  get 'press_and_exhibitions', to: 'pages#press_and_exhibitions'
+  get 'from_intimacy_to_politic', to: 'pages#from_intimacy_to_politic'
+  get 'of_blood_and_sea', to: 'pages#of_blood_and_sea'
   get 'red_thread', to: 'pages#red_thread'
   get 'oro_rosso', to: 'pages#oro_rosso'
-  get 'ce_ccose_ndrame', to: 'pages#ce_ccose_ndrame'
+  get 'ce_ccose_sta_dnasti_ndrame', to: 'pages#ce_ccose_sta_dnasti_ndrame'
   get 'garden', to: 'pages#garden'
   get 'the_lovers', to: 'pages#the_lovers'
   get 'street_art', to: 'pages#street_art'
