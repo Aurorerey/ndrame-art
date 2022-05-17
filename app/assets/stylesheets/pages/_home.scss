@@ -30,16 +30,9 @@ animation-fill-mode: forwards;
 
 }
 
-
-@media screen and (max-width: 600px) {
-  .container_dialetto h2 {
-    font-size: 40px;
-
-  }
-}
 @media screen and (max-width: 600px) {
   .container_dialetto {
-   padding-top: 90px;
+   padding-top: 100px;
   }
 }
 
@@ -90,15 +83,16 @@ animation-fill-mode: forwards;
 
 @media screen and (max-width: 600px) {
   .container_dialetto h2 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 46px;
+    padding-top: 16px;
 
   }
 }
 
 @media screen and (max-width: 600px) {
   .container_dialetto {
-   padding-top: 90px;
+   padding-top: 100px;
   }
 }
 
