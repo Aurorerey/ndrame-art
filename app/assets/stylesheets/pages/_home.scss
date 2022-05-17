@@ -30,16 +30,9 @@ animation-fill-mode: forwards;
 
 }
 
-
-@media screen and (max-width: 600px) {
-  .container_dialetto h2 {
-    font-size: 40px;
-
-  }
-}
 @media screen and (max-width: 600px) {
   .container_dialetto {
-   padding-top: 90px;
+   padding-top: 100px;
   }
 }
 
@@ -48,10 +41,10 @@ animation-fill-mode: forwards;
 }
 
 .container_dialetto h1 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Newsreader', serif;
   font-size: 70px;
   color: #551117;
-  opacity: 88%;
+
 }
 
 .container_dialetto h3 {
@@ -59,18 +52,17 @@ animation-fill-mode: forwards;
   font-weight: 300;
   font-size: 42px;
   color: #551117;
-  opacity: 88%;
+
+
 
 
 }
 .container_dialetto h2 {
-  font-family: 'League Gothic', sans-serif;
-  letter-spacing: 2px;
-  font-weight: lighter;
-  padding-top: 22px;
+  font-family: 'Newsreader', serif;
+  letter-spacing: 1px;
+  padding-top: 30px;
   font-size: 58px;
   color: #551117;
-  opacity: 88%;
   line-height: 60px;
 
 }
@@ -91,15 +83,16 @@ animation-fill-mode: forwards;
 
 @media screen and (max-width: 600px) {
   .container_dialetto h2 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 46px;
+    padding-top: 16px;
 
   }
 }
 
 @media screen and (max-width: 600px) {
   .container_dialetto {
-   padding-top: 90px;
+   padding-top: 100px;
   }
 }
 

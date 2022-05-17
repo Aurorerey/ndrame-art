@@ -1,3 +1,21 @@
+.container_titre_video h1 {
+    font-family: 'Newsreader', serif;
+
+}
+
+.container_titre_video {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .container_titre_video h1 {
+ padding-right: 10px;
+ padding-left: 20px;
+  }
+}
+
 .recorded_perf {
   height: 0;
   overflow: hidden;
