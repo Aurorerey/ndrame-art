@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   def home
   end
-  def from_intimacy_to_politic
+  def from_intimate_to_political
   end
   def oro_rosso
   end
