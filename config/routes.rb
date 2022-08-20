@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'biography', to: 'pages#biography'
   get 'press_and_exhibitions', to: 'pages#press_and_exhibitions'
-  get 'from_intimacy_to_politic', to: 'pages#from_intimacy_to_politic'
+  get 'from_intimate_to_political', to: 'pages#from_intimate_to_political'
   get 'of_blood_and_sea', to: 'pages#of_blood_and_sea'
   get 'red_thread', to: 'pages#red_thread'
   get 'oro_rosso', to: 'pages#oro_rosso'
