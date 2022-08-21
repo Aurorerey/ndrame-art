@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
+  def it
+  end
   def home
   end
   def from_intimate_to_political
