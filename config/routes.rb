@@ -1,9 +1,7 @@
 Rails.application.routes.draw do
 
-  scope "(:locale)", :locale => /it|de/ do
+  scope "(:locale)", :locale => /it/ do
    root to: 'pages#home'
-   resources :countries
-end
 
   get 'it', to: 'pages#it'
   get 'biography', to: 'pages#biography'
@@ -19,4 +17,5 @@ end
   get 'projet_9', to: 'pages#projet_9'
   get 'home', to: 'pages#home'
 
+end
 end
