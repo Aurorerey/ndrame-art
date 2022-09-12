@@ -1,33 +1,33 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  bio: "bio"
+  bio_html: "<p>Born in Bari (Southern Italy), graduating from the School of Fine Arts in Naples and with a master's degree in Gender Studies from the University of Paris VIII, ‘Ndrame's practice is based mainly on menstrual blood, especially for making collages. She works with absorbent paper towels or textiles stained with menstrual blood that, once dried, are applied to different media. She collects her own blood and other people’s as well, in a community based and pluralistic approach where the relationship is part of the artistic process.
+In her work, relationships take part in her creative process: in an inclusive approach that aims at valuing the diversity of menstruating bodies, ‘Ndrame collects her own blood but also other people’s, in a community based and inclusive approach that wants to bring out the plurality of menstruating bodies. Drawing, painting and the use of other materials such as lace, gold leaf or found objects are part of her work. Being sensitive to ecological issues and upcycling is very important in her approach. Through the exploration of intimate spaces, her work addresses the question of the body, gender and social justice, as well as our relationship with living things from a feminist and queer perspective
+      <p>The word ndrame is a plural noun in the dialect of Bari which means guts. This word embodies part of the geographical and cultural identity of the artist, but also a way of creating and feeling through the guts. Moreover, ndrame also refers to the Italian word for “dramma”, which etymologically means “action”, “to do”.
+Within heteropatriarchal societies, menstruations have been used to control the body and justify the inferiority of women, leading to the stigmatization of periods. Menstruations have been associated with impurity, the devil and even illnesses such as hystéria. Considering gender norms, bodily injunctions and marketing, ‘Ndrame aims to question how the dominant culture still reduces this blood to be invisible, its color whitened and its smell sanitized. On the other hand, class inequalities limit the access to menstrual products for large numbers of people around the world, leading to social exclusion and further stigmatization. Hence ‘Ndrame’s desire to rehabilitate this fluid’s image by questioning its physical, sensory, political, energetic and aesthetic dimensions. The vital force of menstrual blood contrasts with the blood of violence and the dominant male narrative of virile and oppressive strength. Menstruation represents a living body as a regenerative force and opens up various new narratives and counter-hegemonic images.</p>
+      <p>‘Ndrame exhibited her work in collective exhibitions in Paris before exhibiting at the Féministival for the first time in Marseille in 2019. The same year, she joins <em>Cœur de cagoles</em>, a feminist and ecological collective committed to menstrual education.
+In 2020, she had her first solo exhibitions (Le pas sage, Marseille), at the Arts at home (Arles) and Garces (Marseille) festivals. She began an artistic collaboration with Marisoa Ramonja and Clotilde Penet (<em>Sang trinité</em>) and created urban collages on the themes of the body and menstrual education. She began working on a participative project called Jardin during a creative residency at La Réserve des Arts in Marseille. The first stage of the project was shown there in March 2021 and a second stage in June 2021 at the Espace Catalpa art therapy center in Marseille. She participated in the documentary <em>J’irai crier sur vos murs</em> (2022), produced by France television, on the theme of feminist street art in Marseille.
+      </p>"
+  press:
+  recorded_perf:
+    title:
+    description:
+  intimate:
+    title:
+    description:
+  garden:
+    title:
+    description:
+  blood_sea:
+    title:
+    description:
+  oro_rosso:
+    title:
+    description:
+  red_thread:
+    title:
+    description:
+  street_art:
+    title:
+    description:
+  lovers:
+    title:
+    description:
