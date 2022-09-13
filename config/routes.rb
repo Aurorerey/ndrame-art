@@ -3,8 +3,7 @@ Rails.application.routes.draw do
   scope "(:locale)", :locale => /it/ do
    root to: 'pages#home'
 
-  get 'it', to: 'pages#it'
-  get 'biography', to: 'pages#biography'
+  get 'biography', to: 'pages#biography#it'
   get 'press_and_exhibitions', to: 'pages#press_and_exhibitions'
   get 'from_intimate_to_political', to: 'pages#from_intimate_to_political'
   get 'of_blood_and_sea', to: 'pages#of_blood_and_sea'
@@ -16,6 +15,8 @@ Rails.application.routes.draw do
   get 'street_art', to: 'pages#street_art'
   get 'projet_9', to: 'pages#projet_9'
   get 'home', to: 'pages#home'
+
+
 
 end
 end
