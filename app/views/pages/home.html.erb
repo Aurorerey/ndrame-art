@@ -6,6 +6,14 @@
 
       <div class="container_dialetto">
 
+<% if I18n.locale == I18n.default_locale %>
+  <%= link_to "italiano", '/it'%>
+
+<% else %>
+  <%= link_to "english", '/'%>
+
+<%end%>
+
         <div class="letters">
           <h1>'ndrame </h1> <h3>/in dialetto significa viscere/</h3>
           <h2><%= t('home_title_html') %></h2>
