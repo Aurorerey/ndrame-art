@@ -9,7 +9,7 @@ en:
 
   bio_title: "Biography & Contact"
 
-  recorded_perf_description: "Video performance created with Aurore Rey.
+  video_perf_description: "Video performance created with Aurore Rey.
     A dialogue between the emotions and the guts, an attempt at healing and self-acceptance."
 
   garden_description: "Interest in holistic self-care practices and ecofeminism has fueled this investigation around menstrual blood and the plant kingdom.
@@ -76,3 +76,7 @@ en:
     An intimate and collective space."
 
   blood_sea_title: "Of blood and sea"
+
+  press_title: "Exhibitions & Press"
+
+  home_title_html: "is an artist working mostly with <br> menstrual blood</br>"
