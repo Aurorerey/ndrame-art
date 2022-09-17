@@ -13,7 +13,7 @@ it:
 
   bio_title: "Biografia & Contatto"
 
-  recorded_perf_description: "Video performance di ‘Ndrame e Aurore Rey.
+  video_perf_description: "Video performance di ‘Ndrame e Aurore Rey.
     Un dialogo tra le emozioni e la pancia, un tentativo di guarigione e di accettazione di sé."
 
 
@@ -55,3 +55,9 @@ it:
     Il mare, spazio fluido che separa e unisce diverse terre, spazio di vita, di lutto e di distruzione, ma anche spazio di rigenerazione e memoria. Spazio intimo e collettivo."
 
   blood_sea_title: "Di sangue e di mare"
+
+  press_title: "Expo & Press"
+
+  home_title_html: "arte visiva e <br>sangue mestruale</br>"
+
+  lang: "english"
