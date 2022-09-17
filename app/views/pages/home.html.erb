@@ -3,7 +3,7 @@
 <div class="container_home">
 
   <div class="col-12 col-md-10 col-lg-10">
-
+<%= render 'shared/lang' %>
       <div class="container_dialetto">
 
 
@@ -15,16 +15,7 @@
         <div class="btn_discover">
          <img src="https://res.cloudinary.com/cloudpandora/image/upload/v1651085215/bassin_homepage_zzs4t6.png" class="img-fluid" alt="Responsive image">
 </div>
-<div class="btn_lang">
-<% if I18n.locale == I18n.default_locale %>
-  <%= link_to "italiano", '/it'%>
 
-<% else %>
-  <%= link_to "english", '/'%>
-
-<%end%>
-
-</div>
         </div>
       </div>
     </div>
