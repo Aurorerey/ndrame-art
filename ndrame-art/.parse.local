@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "ndrame-art"
+    },
+    "ndrame-art": {
+      "applicationId": "nUt6OgH8ua7lQyeJAsKInjCFvt2VfL06P09PleyS"
+    }
+  }
+}
