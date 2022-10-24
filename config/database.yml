@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: ndrame_art_production
   username: ndrame_art
   password: <%= ENV['NDRAME_ART_DATABASE_PASSWORD'] %>
