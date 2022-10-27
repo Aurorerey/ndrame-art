@@ -11,6 +11,8 @@ services:
     domains: # custom domains
       - 'www.ndrame.com'
     envVars:
+      - key: HEROKU_STACK
+        value: heroku-20
       - key: CLOUDINARY_URL # Imported from Heroku app
         value: cloudinary://122562221168996:C9iIsBQ9a7kdWGVfnilphbx4Go8@cloudpandora
       - key: LANG # Imported from Heroku app
@@ -27,8 +29,7 @@ services:
         fromDatabase:
           name: postgresql-graceful-53853
           property: connectionString
-      - key: HEROKU_STACK
-        value: heroku-20
+
 
 databases: # Render PostgreSQL database
   - name: postgresql-graceful-53853
