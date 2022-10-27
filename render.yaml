@@ -6,8 +6,6 @@ services:
     name: ndrame-art
     env: docker # valid values: https://render.com/docs/yaml-spec#environment
     dockerfilePath: Dockerfile.render
-    buildCommand: "./bin/render-build.sh"
-    startCommand: "bundle exec puma -C config/puma.rb"
     plan: free # optional; defaults to starter
     numInstances: 1
     domains: # custom domains
