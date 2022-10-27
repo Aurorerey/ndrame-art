@@ -27,6 +27,8 @@ services:
         fromDatabase:
           name: postgresql-graceful-53853
           property: connectionString
+      - key: HEROKU_STACK
+        value: heroku-20
 
 databases: # Render PostgreSQL database
   - name: postgresql-graceful-53853
