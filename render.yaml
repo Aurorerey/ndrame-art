@@ -20,7 +20,7 @@ services:
       - key: RACK_ENV # Imported from Heroku app
         value: production
       - key: RAILS_ENV # Imported from Heroku app
-        value: development
+        value: production
       - key: RAILS_LOG_TO_STDOUT # Imported from Heroku app
         value: enabled
       - key: RAILS_SERVE_STATIC_FILES # Imported from Heroku app
