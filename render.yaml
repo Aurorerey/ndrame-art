@@ -26,8 +26,6 @@ services:
         value: enabled
       - key: RAILS_SERVE_STATIC_FILES # Imported from Heroku app
         value: enabled
-      - key: SECRET_KEY_BASE
-        generateValue: true
       - key: DATABASE_URL # Render PostgreSQL database
         fromDatabase:
           name: postgresql-graceful-53853
