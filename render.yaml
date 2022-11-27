@@ -9,8 +9,6 @@ services:
     startCommand: bundle exec puma -C config/puma.rb
     plan: free # optional; defaults to starter
     numInstances: 1
-    domains: # custom domains
-      - 'www.ndrame.com'
     envVars:
       - key: HEROKU_STACK
         value: heroku-20
