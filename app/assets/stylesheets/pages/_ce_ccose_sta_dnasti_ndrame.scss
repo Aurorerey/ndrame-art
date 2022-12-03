@@ -1,37 +1,31 @@
 .container_titre_video h1 {
-    font-family: 'Newsreader', serif;
-
+  font-family: 'Newsreader', serif;
 }
-
 .container_titre_video {
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
-
 @media screen and (max-width: 800px) {
   .container_titre_video h1 {
- padding-right: 10px;
- padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
   }
 }
-
 .recorded_perf {
   height: 0;
   overflow: hidden;
   padding-bottom: 46.25%;
   padding-top: 30px;
   position: relative;
-   }
-
+}
 .recorded_perf iframe, .recorded_perf object, .recorded_perf embed {
   height: 100%;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
-  }
-
+}
 .container_description_video {
   text-align: left;
   padding-top: 54px;

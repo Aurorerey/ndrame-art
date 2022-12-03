@@ -1,10 +1,7 @@
 <div class="btn_lang">
-<% if I18n.locale == I18n.default_locale %>
-  <%= link_to "italiano", '/it/home'%>
-
-<% else %>
-  <%= link_to "english", '/'%>
-
-<%end%>
-
+  <% if I18n.locale == I18n.default_locale %>
+    <%= link_to "italiano", '/it/home'%>
+  <% else %>
+    <%= link_to "english", '/'%>
+  <%end%>
 </div>

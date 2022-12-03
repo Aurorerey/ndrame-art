@@ -1,46 +1,33 @@
-
 .carnet {
-    display: flex;
-    padding-top: 25px;
-    gap: 25px;
-    flex-wrap: wrap;
-   justify-content: space-evenly;
-
+  display: flex;
+  padding-top: 25px;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-
 .carnet p {
-      justify-content: end;
-    display: flex;
-    padding-right: 5px;
+  justify-content: end;
+  display: flex;
+  padding-right: 5px;
 }
-
-
 .carnet_1 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 30px;
   gap: 25px;
-
 }
-
 .carnet_1 p {
-      justify-content: end;
-    display: flex;
-    padding-right: 5px;
+  justify-content: end;
+  display: flex;
+  padding-right: 5px;
 }
-
-
 .hyppo {
-    display: flex;
-   justify-content: space-evenly;
-
+  display: flex;
+  justify-content: space-evenly;
 }
-
-
 .hyppo p {
-      justify-content: end;
-    display: flex;
-    padding-right: 5px;
+  justify-content: end;
+  display: flex;
+  padding-right: 5px;
 }
-

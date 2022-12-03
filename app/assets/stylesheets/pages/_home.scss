@@ -1,61 +1,46 @@
-
 .container_home {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 700px;
 }
-
-
 .container_home::before {
-content: "";
-background-image: url(https://res.cloudinary.com/cloudpandora/image/upload/v1662971593/COULERES_site1_unsods.jpg);
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-position: absolute;
-top: 0px;
-right: 0px;
-bottom: 0px;
-left: 0px;
-animation: fadein 5s;
-animation-fill-mode: forwards;
-
+  content: "";
+  background-image: url(https://res.cloudinary.com/cloudpandora/image/upload/v1662971593/COULERES_site1_unsods.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  animation: fadein 3s;
+  animation-fill-mode: forwards;
 }
-
 .container_dialetto {
   padding-top: 145px;
   position: relative;
-
 }
-
 @media screen and (max-width: 600px) {
   .container_dialetto {
    padding-top: 100px;
   }
 }
-
 .container_dialetto h1, h3 {
   display: inline;
 }
-
 .container_dialetto h1 {
   font-family: 'Newsreader', serif;
   font-size: 70px;
   color: #551117;
-
 }
-
 .container_dialetto h3 {
   font-style: oblique;
   font-weight: 300;
   font-size: 42px;
   color: #551117;
-
-
-
-
 }
 .container_dialetto h2 {
   font-family: 'Newsreader', serif;
@@ -64,124 +49,81 @@ animation-fill-mode: forwards;
   font-size: 58px;
   color: #551117;
   line-height: 60px;
-
 }
-
 @media screen and (max-width: 600px) {
   .container_dialetto h1 {
     font-size: 50px;
   }
 }
-
-
 @media screen and (max-width: 600px) {
   .container_dialetto h3 {
     font-size: 30px;
-
   }
 }
-
 @media screen and (max-width: 600px) {
   .container_dialetto h2 {
     font-size: 40px;
     line-height: 46px;
     padding-top: 16px;
-
   }
 }
-
 @media screen and (max-width: 600px) {
   .container_dialetto {
    padding-top: 100px;
   }
 }
-
 .letters {
   display:inline-block;
-
 }
-
 .letters:first-of-type {
-  animation: showup 6s;
+  animation: showup 5s;
   animation-fill-mode: forwards;
 }
-
 .letters:last-of-type {
   width:0px;
-
 }
-
 @keyframes showup {
-    0% {opacity:0;}
-    40% {opacity:0;}
-    70% {opacity:1;}
-    100% {opacity:1;}
+  0% {opacity:0;}
+  40% {opacity:0;}
+  70% {opacity:1;}
+  100% {opacity:1;}
 }
-
 @keyframes reveal {
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
+  0% {opacity:0;}
+  20% {opacity:1;}
+  80% {opacity:1;}
+  100% {opacity:0;}
 }
-
-
 .background-image {
 z-index: 0;
 }
-
-
 @keyframes fadein {
-    0% {opacity:1;}
-    20% {opacity:1;}
-    60% {opacity:1;}
-    100% {opacity:0.4;}
+  0% {opacity:1;}
+  20% {opacity:1;}
+  60% {opacity:1;}
+  100% {opacity:0.4;}
 }
-
-
 .btn_discover a {
   text-decoration: none;
   color: #551117;
   font-size: 50px;
 }
-
 .btn_discover {
-  animation: glowing 5s infinite;
-  animation: showup 6s;
+  animation: showup 4s;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
   z-index: 8;
 }
-
 .btn_discover img {
   cursor: pointer;
- width: 140px;
- opacity: 90%;
- animation: glowing 5s infinite;
-
+  width: 140px;
+  opacity: 90%;
 }
-
-
 .btn_discover img:hover {
- width: 140px;
--webkit-filter: drop-shadow(3px 3px 3px #F4F5F5);
+  width: 140px;
+  -webkit-filter: drop-shadow(3px 3px 3px #F4F5F5);
   filter: drop-shadow(3px 3px 3px #F4F5F5);
 }
-
-@keyframes glowing {
-        0% {
--webkit-filter: drop-shadow(3px 3px 3px #F4F5F5);
-  filter: drop-shadow(3px 3px 3px #F4F5F5);
-        }
-        50% {
--webkit-filter: drop-shadow(2px 2px 2px white);
-  filter: drop-shadow(2px 2px 2px white);
-        }
-        100% {
--webkit-filter: drop-shadow(3px 3px 3px #F4F5F5);
-  filter: drop-shadow(3px 3px 3px #F4F5F5);
-        }
-      }
 
