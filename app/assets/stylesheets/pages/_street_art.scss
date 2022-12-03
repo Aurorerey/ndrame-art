@@ -3,8 +3,6 @@
   padding-top: 18px;
   margin: 8px;
 }
-
-
 .street_lesbien {
   display: flex;
   justify-content: space-around;
@@ -15,7 +13,6 @@
   margin: 8px;
   gap: 4px;
 }
-
 .street_menstrual{
   display: flex;
   justify-content: space-around;
@@ -26,7 +23,6 @@
   margin: 8px;
   gap: 4px;
 }
-
 .street_bottom {
   display: flex;
   justify-content: space-around;
@@ -36,20 +32,17 @@
   margin: 8px;
   gap: 4px;
 }
-
 .street_video {
   height: 0;
   overflow: hidden;
   padding-bottom: 46.25%;
   padding-top: 30px;
   position: relative;
-   }
-
+}
 .street_video iframe, .street_video object, .street_video embed {
   height: 100%;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
-  }
-
+}

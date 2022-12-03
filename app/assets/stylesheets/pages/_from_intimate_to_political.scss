@@ -1,17 +1,14 @@
 .container_projet {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
 }
-
 @media screen and (max-width: 600px) {
   .container_projet {
     padding-top: 18px;
-
   }
 }
-
 .container_projet a {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -19,51 +16,36 @@ text-align: justify;
   color: black;
   font-size: 18px;
 }
-
 .container_description {
   font-family: 'Lato', sans-serif;
   padding-bottom: 6px;
   padding-top: 6px;
   margin: 10px;
 }
-
-
-
 .container_titre h1, h3 {
   font-family: 'Newsreader', serif;
   display: inline;
-
 }
-
-
 .container_titre {
   display: flex;
   justify-content: center;
   padding-bottom: 12px;
   padding-top: 20px;
-
 }
-
 @media screen and (max-width: 600px) {
   .container_titre {
     display: flex;
     justify-content: center;
     padding-left: 34px;
     padding-top: 0px;
-
   }
 }
-
 /////
-
-
 .photo_invisible {
   max-width: 1000px;
   padding-bottom: 6%;
   padding-top: 4%;
 }
-
-
 .palazzo {
   display: flex;
   justify-content: space-around;
@@ -73,18 +55,14 @@ text-align: justify;
   margin: 10px;
   flex-wrap: wrap;
 }
-
 .palazzo img {
-    border: 5px solid transparent;
+  border: 5px solid transparent;
 }
-
 .palazzo p {
-    justify-content: end;
-    display: flex;
-    padding-right: 5px;
+  justify-content: end;
+  display: flex;
+  padding-right: 5px;
 }
-
-
 .politique {
   display: flex;
   justify-content: space-around;
@@ -92,22 +70,18 @@ text-align: justify;
   padding-top: 40px;
   flex-wrap: wrap;
 }
-
-
 .politique p {
-    justify-content: end;
-    display: flex;
-    padding-right: 5px;
+  justify-content: end;
+  display: flex;
+  padding-right: 5px;
 }
-
 .photo_description p {
-      justify-content: end;
-    display: flex;
-    padding-right: 5px;
+  justify-content: end;
+  display: flex;
+  padding-right: 5px;
 }
-
 .photo_invisible p {
-      justify-content: end;
-    display: flex;
-    padding-right: 5px;
+  justify-content: end;
+  display: flex;
+  padding-right: 5px;
 }

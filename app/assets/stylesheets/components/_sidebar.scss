@@ -2,57 +2,47 @@
   z-index: 9;
   text-align: center;
 }
-
-
 .logo_btn {
   width: 200px;
   padding-left: 10px;
   padding-top: 14px;
 }
-
 .drop_btn {
  width: 60px;
 }
-
 .drop_btn:hover {
   -webkit-filter: drop-shadow(5px 5px 5px #BFC1C5);
   filter: drop-shadow(5px 5px 5px #BFC1C5);
 }
-
 .container_sidebar h1{
   margin:0;
   color: #551117;
   padding:10px;
 }
-
 button:focus{
   outline:none
 }
-
 .container_link {
   padding-top: 36px;
 }
-
-  aside{
-    background:linear-gradient(141deg, #E9EAEC 25%, white 40%, #E9EAEC 55%);
-    width:320px;
-    height:100vh;
-    position:fixed;
-    transition:.3s;
-    left:-320px;top:0;
-    transition-timing-function: cubic-bezier(0.9,0,1,1);
-    font-family: 'Lato', sans-serif;
-    z-index: 9;
-    border-top-right-radius: 5%;
-    border-bottom-right-radius: 5%;
-  }
-
+aside{
+  background:linear-gradient(141deg, #E9EAEC 25%, white 40%, #E9EAEC 55%);
+  width:320px;
+  height:100vh;
+  position:fixed;
+  transition:.3s;
+  left:-320px;top:0;
+  transition-timing-function: cubic-bezier(0.9,0,1,1);
+  font-family: 'Lato', sans-serif;
+  z-index: 9;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
 aside.close{
   left:0;
   transition:.3s;
   transition-timing-function: cubic-bezier(0.9,0,1,1);
 }
-
 nav a{
   display: block;
   text-decoration: none;
@@ -61,17 +51,14 @@ nav a{
   line-height: 20px;
   padding:10px
 }
-
 nav a.different {
   padding-top: 40px;
 }
-
 nav a:hover{
   color: #551117;
   cursor: pointer;
   text-shadow: 1px 1px 3px grey;
 }
-
 aside button{
   border:none;
   background:none;
@@ -80,20 +67,14 @@ aside button{
   display:inline-block;
   cursor:pointer;
 }
-
-
 @media screen and (max-width: 600px) {
   .drop_btn {
     width: 42px;
-
   }
 }
-
 @media screen and (max-width: 600px) {
   aside button {
   position: absolute;
   right:-62px; top:20px;
-
   }
 }
-

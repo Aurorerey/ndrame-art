@@ -10,14 +10,11 @@
   padding-bottom: 30px;
   flex-wrap: wrap;
 }
-
 .fruit_garden {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
-
 .container_titre_garden {
   display: flex;
   flex-direction: column;
@@ -27,8 +24,7 @@
   margin: 2px;
   line-height: 6px;
 }
-
 .container_titre_garden h1 {
-    font-family: 'Newsreader', serif;
-    line-height: 24px;
+  font-family: 'Newsreader', serif;
+  line-height: 24px;
 }

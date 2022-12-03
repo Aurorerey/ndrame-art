@@ -1,4 +1,3 @@
-
 .black_thread {
   display: flex;
   justify-content: space-around;
@@ -9,41 +8,32 @@
   margin: 7px;
   flex-wrap: wrap;
 }
-
 .black_thread img {
-    border: 5px solid black;
+  border: 5px solid black;
 }
-
 .black_thread p {
-    justify-content: end;
-    display: flex;
-    padding-right: 5px;
+  justify-content: end;
+  display: flex;
+  padding-right: 5px;
 }
-
 .skull_thread {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
-
-
 .skull_thread img {
-    border: 5px solid black;
+  border: 5px solid black;
 }
-
 .skull_thread p {
-    justify-content: end;
-    display: flex;
-    padding-right: 5px;
+  justify-content: end;
+  display: flex;
+  padding-right: 5px;
 }
-
 .photo_description_thread img {
-   border: 5px solid black;
+  border: 5px solid black;
 }
-
 .photo_description_thread p {
-    justify-content: end;
-    display: flex;
-    padding-right: 5px;
+  justify-content: end;
+  display: flex;
+  padding-right: 5px;
 }
