@@ -16,7 +16,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  animation: fadein 4s;
+  animation: fadein 3s;
   animation-fill-mode: forwards;
 }
 .container_dialetto {
@@ -76,7 +76,7 @@
   display:inline-block;
 }
 .letters:first-of-type {
-  animation: showup 6s;
+  animation: showup 5s;
   animation-fill-mode: forwards;
 }
 .letters:last-of-type {
@@ -126,3 +126,4 @@ z-index: 0;
   -webkit-filter: drop-shadow(3px 3px 3px #F4F5F5);
   filter: drop-shadow(3px 3px 3px #F4F5F5);
 }
+
