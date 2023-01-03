@@ -16,8 +16,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  animation: fadein 3s;
-  animation-fill-mode: forwards;
+  opacity: 60%;
 }
 .container_dialetto {
   padding-top: 145px;
@@ -75,34 +74,18 @@
 .letters {
   display:inline-block;
 }
-.letters:first-of-type {
-  animation: showup 5s;
-  animation-fill-mode: forwards;
-}
-.letters:last-of-type {
-  width:0px;
-}
+
 @keyframes showup {
   0% {opacity:0;}
   40% {opacity:0;}
   70% {opacity:1;}
   100% {opacity:1;}
 }
-@keyframes reveal {
-  0% {opacity:0;}
-  20% {opacity:1;}
-  80% {opacity:1;}
-  100% {opacity:0;}
-}
+
 .background-image {
 z-index: 0;
 }
-@keyframes fadein {
-  0% {opacity:1;}
-  20% {opacity:1;}
-  60% {opacity:1;}
-  100% {opacity:0.4;}
-}
+
 .btn_discover a {
   text-decoration: none;
   color: #551117;
