@@ -16,7 +16,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 60%;
+  opacity: 70%;
 }
 .container_dialetto {
   padding-top: 145px;
@@ -74,7 +74,13 @@
 .letters {
   display:inline-block;
 }
-
+.letters:first-of-type {
+  animation: showup 4s;
+  animation-fill-mode: forwards;
+}
+.letters:last-of-type {
+  width:0px;
+}
 @keyframes showup {
   0% {opacity:0;}
   40% {opacity:0;}
