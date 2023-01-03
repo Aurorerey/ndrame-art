@@ -11,6 +11,7 @@
 
   gtag('config', 'G-KJT17WF02F');
 </script>
+<script src="default.js"></script>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
@@ -32,6 +33,7 @@
 <meta property="og:image" content="https://res.cloudinary.com/cloudpandora/image/upload/v1652743693/og_image_nwztem.jpg" />
 <meta property="og:type" content="siteweb" />
 <meta property="og:url" content="http://www.ndrame.com" />
+
   </head>
   <body>
     <%= render 'shared/sidebar' %>
@@ -53,6 +55,7 @@
     $("aside").toggleClass("close")
     });
     });
+
     // click outside
     $(document).mouseup(function(e){
     var container = $("aside");
