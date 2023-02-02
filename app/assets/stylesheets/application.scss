@@ -1,8 +1,20 @@
 // Graphical variables
 
 // External libraries
-@import "bootstrap/scss/bootstrap";
 
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+// Files you'd like to import i.e.:
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/close";
+@import "../node_modules/bootstrap/scss/modal";
+@import "../node_modules/bootstrap/scss/carousel";
+
+@import "../node_modules/bootstrap/scss/utilities/api";
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
