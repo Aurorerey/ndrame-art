@@ -1,5 +1,4 @@
 .container_titre_bio {
-  padding-bottom: 10px;
   padding-top: 20px;
 }
 .container_titre_bio h1 {
@@ -13,6 +12,9 @@ font-size:30px;
 }
 .container_contact_link_1 {
   display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
   font-size: 20px;
 }
 .container_contact_link_2 {
@@ -42,7 +44,7 @@ font-size:34px;
 @media screen and (max-width: 800px) {
   .container_titre_bio {
     display: flex;
-        align-items: flex-end;
+    align-items: flex-end;
     flex-direction: column;
     padding-right: 8px;
   }
@@ -58,5 +60,4 @@ padding-left: 6px;
 }
 .mail {
    padding-left: 4px;
-    padding-top: 10px;
 }
