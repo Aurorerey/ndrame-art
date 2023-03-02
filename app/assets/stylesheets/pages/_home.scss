@@ -4,6 +4,8 @@
   align-items: center;
   text-align: center;
   height: 700px;
+  color: #551117;
+  font-family: 'Newsreader', serif;
 }
 .container_home::before {
   content: "";
@@ -20,7 +22,6 @@
 }
 .container_dialetto {
   padding-top: 145px;
-  position: relative;
 }
 @media screen and (max-width: 600px) {
   .container_dialetto {
@@ -31,23 +32,21 @@
   display: inline;
 }
 .container_dialetto h1 {
-  font-family: 'Newsreader', serif;
   font-size: 70px;
-  color: #551117;
+  font-weight: 500;
 }
 .container_dialetto h3 {
   font-style: oblique;
   font-weight: 300;
   font-size: 42px;
-  color: #551117;
+
 }
 .container_dialetto h2 {
-  font-family: 'Newsreader', serif;
   letter-spacing: 1px;
   padding-top: 30px;
   font-size: 58px;
-  color: #551117;
   line-height: 60px;
+  font-weight: 400;
 }
 @media screen and (max-width: 600px) {
   .container_dialetto h1 {
@@ -88,13 +87,8 @@
   100% {opacity:1;}
 }
 
-.background-image {
-z-index: 0;
-}
-
 .btn_discover a {
   text-decoration: none;
-  color: #551117;
   font-size: 50px;
 }
 .btn_discover {
