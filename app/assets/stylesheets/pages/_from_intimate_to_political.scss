@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: justify;
+  font-family: 'Newsreader', serif;
 }
 @media screen and (max-width: 600px) {
   .container_projet {
@@ -22,9 +23,9 @@
   padding-top: 6px;
   margin: 10px;
 }
-.container_titre h1, h3 {
-  font-family: 'Newsreader', serif;
-  display: inline;
+.container_titre h1 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 .container_titre {
   display: flex;
