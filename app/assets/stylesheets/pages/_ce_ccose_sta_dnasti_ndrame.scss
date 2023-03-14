@@ -2,14 +2,17 @@
   font-family: 'Newsreader', serif;
 }
 .container_titre_video {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
+    display: flex;
+    padding-top: 18px;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 @media screen and (max-width: 800px) {
   .container_titre_video h1 {
-    padding-right: 10px;
-    padding-left: 20px;
+
   }
 }
 .recorded_perf {
@@ -28,5 +31,5 @@
 }
 .container_description_video {
   text-align: left;
-  padding-top: 54px;
+  padding-top: 36px;
 }
