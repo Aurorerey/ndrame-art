@@ -1,15 +1,13 @@
-.black_thread {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 5px;
-  font-size: 20px;
-  font-style: oblique;
-  font-weight: lighter;
-  margin: 7px;
-  flex-wrap: wrap;
-}
-.black_thread img {
+ .black_thread img {
+  margin: 4px;
   border: 5px solid black;
+}
+
+.black_thread_img {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
 }
 .black_thread p {
   justify-content: end;
@@ -18,16 +16,16 @@
 }
 .skull_thread {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 .skull_thread img {
   border: 5px solid black;
+
 }
 .skull_thread p {
-  justify-content: end;
-  display: flex;
-  padding-right: 5px;
+
 }
 .photo_description_thread img {
   border: 5px solid black;
